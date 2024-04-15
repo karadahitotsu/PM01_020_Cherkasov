@@ -23,6 +23,41 @@ namespace PM01_020_Cherkasov
         public mainpage()
         {
             InitializeComponent();
+            
+        }
+        private void UpdateUsers()
+        {
+            //загружаем всех пользователей в список
+            var currentMain = cherkasovpm1Entities.GetContext().Event.ToList();
+
+            currentMain = currentMain.Where(x =>
+       x.Name.ToLower().Contains(txtSearch.Text.ToLower())).ToList();
+
+            if (!string.IsNullOrEmpty(txtSearchdescr.Text))
+            {
+                string searchDateText = txtSearchdescr.Text.Trim();
+
+                currentMain = currentMain.Where(x =>
+                    x.Date.ToString("yyyy-MM-dd") == searchDateText).ToList();
+            }
+
+
+            ListHome.ItemsSource = currentMain;
+        }
+
+        private void TxtSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            UpdateUsers();
+        }
+
+        private void txtSearchdescr_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            UpdateUsers();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService?.Navigate(new auth());
         }
     }
 }

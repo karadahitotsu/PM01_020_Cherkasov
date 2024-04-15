@@ -15,6 +15,13 @@ namespace PM01_020_Cherkasov
     
     public partial class cherkasovpm1Entities : DbContext
     {
+        private static cherkasovpm1Entities _context;
+        public static cherkasovpm1Entities GetContext()
+        {
+            if (_context == null)
+                _context = new cherkasovpm1Entities();
+            return _context;
+        }
         public cherkasovpm1Entities()
             : base("name=cherkasovpm1Entities")
         {

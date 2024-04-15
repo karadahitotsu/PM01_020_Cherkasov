@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1099f1afb509433ab8a8b6868bf31284" Name="Diagram1">
+        <EntityTypeShape EntityType="cherkasovpm1Model.City" Width="1.5" PointX="5.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cherkasovpm1Model.Country" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cherkasovpm1Model.Event" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cherkasovpm1Model.Gender" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="cherkasovpm1Model.Jures" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cherkasovpm1Model.Moderators" Width="1.5" PointX="6" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="cherkasovpm1Model.Organizators" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cherkasovpm1Model.Parcipiants" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cherkasovpm1Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="cherkasovpm1Model.FK_Event_City1" ManuallyRouted="false" />
+        <AssociationConnector Association="cherkasovpm1Model.FK_Jures_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="cherkasovpm1Model.FK_Moderators_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="cherkasovpm1Model.FK_Organizators_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="cherkasovpm1Model.FK_Parcipiants_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="cherkasovpm1Model.FK_Jures_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="cherkasovpm1Model.FK_Moderators_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="cherkasovpm1Model.FK_Organizators_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="cherkasovpm1Model.FK_Parcipiants_Gender" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM01_020_Cherkasov", "PM01_020_Cherkasov\PM01_020_Cherkasov.csproj", "{AAA3AF63-BCD2-4E88-AC7A-CAF6BE0E39A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAA3AF63-BCD2-4E88-AC7A-CAF6BE0E39A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA3AF63-BCD2-4E88-AC7A-CAF6BE0E39A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA3AF63-BCD2-4E88-AC7A-CAF6BE0E39A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA3AF63-BCD2-4E88-AC7A-CAF6BE0E39A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {442345EE-7979-4310-B7B7-739EC9B35FDC}
+	EndGlobalSection
+EndGlobal
